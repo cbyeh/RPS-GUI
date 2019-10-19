@@ -42,20 +42,20 @@ public class RPSGUIGame extends JFrame {
         } else // Default constructor, no bets
             game = new RPSGame();
         // Init images
-        rockImage = new ImageIcon("./assets/rock.jpg");
-        paperImage = new ImageIcon("./assets/paper.jpg");
-        scissorsImage = new ImageIcon("./assets/scissors.jpg");
+        rockImage = new ImageIcon("../assets/rock.jpg");
+        paperImage = new ImageIcon("../assets/paper.jpg");
+        scissorsImage = new ImageIcon("../assets/scissors.jpg");
         // Start game
-        compPlay = new JLabel();
-        compPlay.setVerticalTextPosition(SwingConstants.BOTTOM);
-        compPlay.setHorizontalTextPosition(SwingConstants.CENTER);
-        compPlay.setBorder(BorderFactory.createLineBorder(Color.black, 5));
-        compPlay.setForeground(Color.cyan);
         userPlay = new JLabel();
         userPlay.setVerticalTextPosition(SwingConstants.BOTTOM);
         userPlay.setHorizontalTextPosition(SwingConstants.CENTER);
         userPlay.setBorder(BorderFactory.createLineBorder(Color.black, 5));
         userPlay.setForeground(Color.cyan);
+        compPlay = new JLabel();
+        compPlay.setVerticalTextPosition(SwingConstants.BOTTOM);
+        compPlay.setHorizontalTextPosition(SwingConstants.CENTER);
+        compPlay.setBorder(BorderFactory.createLineBorder(Color.black, 5));
+        compPlay.setForeground(Color.cyan);
         // Create outcome
         outcome = new JLabel();
         outcome.setHorizontalTextPosition(SwingConstants.CENTER);
@@ -64,8 +64,8 @@ public class RPSGUIGame extends JFrame {
         JPanel imageOutcomePanel = new JPanel();
         imageOutcomePanel.setBackground(Color.black);
         imageOutcomePanel.setLayout(new BorderLayout());
-        imageOutcomePanel.add(compPlay, BorderLayout.WEST);
-        imageOutcomePanel.add(userPlay, BorderLayout.EAST);
+        imageOutcomePanel.add(compPlay, BorderLayout.EAST);
+        imageOutcomePanel.add(userPlay, BorderLayout.WEST);
         imageOutcomePanel.add(outcome, BorderLayout.SOUTH);
         // Creates the labels for the status of the game (number of wins, losses, and ties);
         // The status labels will be displayed in a single panel

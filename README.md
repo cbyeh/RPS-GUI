@@ -4,4 +4,4 @@ Run with:
 
 `git clone https://github.com/cbyeh/RPS-GUI.git`
 
-`javac RPSGUIGame.java && java RPSGUIGame`
+`javac -d ../out RPSGUIGame.java && java -classpath ../out RPSGUIGame`
