@@ -6,4 +6,4 @@ Run with:
 
 `cd RPS-GUI`
 
-`javac -d ../out RPSGUIGame.java && java -classpath ../out RPSGUIGame`
+`javac -d out src/RPSGUIGame.java src/RPSGame.java && java -classpath out RPSGUIGame`
