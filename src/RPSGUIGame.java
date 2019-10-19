@@ -42,9 +42,9 @@ public class RPSGUIGame extends JFrame {
         } else // Default constructor, no bets
             game = new RPSGame();
         // Init images
-        rockImage = new ImageIcon("../assets/rock.jpg");
-        paperImage = new ImageIcon("../assets/paper.jpg");
-        scissorsImage = new ImageIcon("../assets/scissors.jpg");
+        rockImage = new ImageIcon("assets/rock.jpg");
+        paperImage = new ImageIcon("assets/paper.jpg");
+        scissorsImage = new ImageIcon("assets/scissors.jpg");
         // Start game
         userPlay = new JLabel();
         userPlay.setVerticalTextPosition(SwingConstants.BOTTOM);
