@@ -7,3 +7,7 @@ Run with:
 `cd RPS-GUI`
 
 `javac -d out src/RPSGUIGame.java src/RPSGame.java && java -classpath out RPSGUIGame`
+
+Demo:
+
+![alt text](demo.png)
